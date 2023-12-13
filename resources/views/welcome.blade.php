@@ -28,7 +28,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <div    id="app" class=" ">
+            <div    id="app" class="s">
                 <note :note="note"></note>
             </div>
         </div>
