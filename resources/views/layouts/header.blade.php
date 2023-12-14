@@ -11,24 +11,28 @@
        {
             background-color: rgba(34, 34, 34, 0.8);
         }
+       .lijntje{
+           color: black;
+           border-bottom: solid;
+       }
     </style>
 </head>
 <body>
-<nav class="bg-gray-800 p-4 fixed w-full z-10" id="navbar">
+<nav class="bg-white lijntje p-4 fixed w-full z-10" id="navbar">
     <div class="container mx-auto flex items-center justify-between">
 
-        <a href="/" class="text-white text-lg font-semibold">AlbertΚ</a>
+        <a href="/" class="text-black text-lg font-semibold">Albert Κorf</a>
 
-        <button id="menu-toggle" class="lg:hidden text-white focus:outline-none">
+        <button id="menu-toggle" class="lg:hidden text-black focus:outline-none">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
             </svg>
         </button>
 
         <ul class="hidden lg:flex space-x-4">
-            <li><a href="/" class="text-white">Home</a></li>
-            <li><a href="/about" class="text-white">About us</a></li>
-            <li><a href="/contact" class="text-white">Contact us</a></li>
+            <li><a href="/" class="text-black">Home</a></li>
+            <li><a href="/about" class="text-black">About us</a></li>
+            <li><a href="/contact" class="text-black">Contact us</a></li>
         </ul>
     </div>
 </nav>
