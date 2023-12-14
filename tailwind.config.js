@@ -10,6 +10,9 @@ export default {
     ],
 
     theme: {
+        fontFamily: {
+            sans: ['"Franklin"', 'sans-serif']
+        },
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],

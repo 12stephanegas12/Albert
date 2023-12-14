@@ -12,7 +12,9 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider and all of them will
 | be assigned to the "web" middleware group. Make something great!
 |
-*/
+*/Route::get('/images', 'ImagesController@index'); // Toon alle afbeeldingen
+Route::get('/images/{id}', 'ImagesController@show'); // Toon een specifieke afbeelding
+
 
 Route::get('/', function () {
     return view('welcome');
